@@ -1,23 +1,41 @@
-body {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Press Start 2P', cursive;
+}
 
+
+
+body {
   width: 70%;
   margin: auto;
 text-align:left;
 background-image: url(../img/wallpaper.jpg);
 background-size: cover;
-
 }
 
-img
- {
+img {
   width: 10%;
   vertical-align: middle;
+  margin: 20px;
+}
+
+#inputarea {
+  margin-left: 30px;
+}
+
+
+
+hr {
+  margin: 15px;
 }
 
 #logo {
 display: inline;
 vertical-align: middle;
 color: red;
+font-size: 20px;
 }
 
 #circle {
@@ -26,7 +44,9 @@ border-radius: 50%;
 }
 
 #unreadalert {
+  display: inline-block;
 color: white;
+font-size: 15px;
 }
 
 
@@ -39,6 +59,7 @@ color: white;
 .text {
   display: inline-block;
   margin: 0px;
+  font-size: 10px;
 }
 
 .testo {
@@ -49,6 +70,7 @@ color: white;
 #footertext {
 
 color: red;
+font-size: 9px;
 
 }
 
@@ -56,4 +78,5 @@ color: red;
 
 text-align: center;
 color: white;
+font-size: 11px;
 }

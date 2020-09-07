@@ -1,0 +1,59 @@
+body {
+
+  width: 70%;
+  margin: auto;
+text-align:left;
+background-image: url(../img/wallpaper.jpg);
+background-size: cover;
+
+}
+
+img
+ {
+  width: 10%;
+  vertical-align: middle;
+}
+
+#logo {
+display: inline;
+vertical-align: middle;
+color: red;
+}
+
+#circle {
+background-color: red;
+border-radius: 50%;
+}
+
+#unreadalert {
+color: white;
+}
+
+
+.messagge {
+  background-color: grey;
+  box-sizing: border-box;
+  border-bottom: 1px solid white;
+}
+
+.text {
+  display: inline-block;
+  margin: 0px;
+}
+
+.testo {
+
+color: white;
+}
+
+#footertext {
+
+color: red;
+
+}
+
+#footerco {
+
+text-align: center;
+color: white;
+}
